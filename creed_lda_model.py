@@ -207,8 +207,32 @@ religious_terms = {
     "gospel", "salvation", "holy", "spirit", "lord", "redeem", "forgive", "sin", "believe", "worship",
     "glory", "cross", "crucify", "messiah", "hallelujah", "praise", "blessing", "miracle", "sacred", "eternal",
     "trinity", "disciple", "apostle", "covenant", "resurrection", "righteous", "commandments", "truth", "mercy",
-    "light", "love", "peace", "prophet", "kingdom", "charity", "repent", "shepherd", "sacrifice", "revival", "deliverance"
+    "light", "love", "peace", "prophet", "kingdom", "charity", "repent", "shepherd", "sacrifice", "revival", "deliverance",
+    "righteousness", "salvation", "sanctification", "atonement", "redemption", "fellowship", "communion", "evangelism", "testimony",
+    "obedience", "glorify", "holiness", "intercession", "meditation", "baptism", "providence", "divinity", "devotion", "repentance",
+    "transfiguration", "stewardship", "apostolic", "martyr", "sanctuary", "anointing", "exaltation", "resurrected", "savior", "tabernacle",
+    "fervent", "grateful", "sabbath", "parable", "humility", "scripture", "psalm", "supplication", "benediction", "doctrine",
+    "sanctified", "witness", "forgiveness", "commandment", "reverence", "communion", "hallowed", "divine", "justification", "omnipotent",
+    "omnipresent", "omniscient", "creator", "messianic", "prodigal", "reconciliation", "anointed", "exodus", "beatitudes", "catholic",
+    "incarnation", "liturgical", "prophecy", "catechism", "gospel", "discipline", "sacrament", "zeal", "intercessor", "heresy",
+    "penance", "presbyter", "epistle", "absolution", "veneration", "pentecost", "suffering", "transubstantiation", "archangel", "sermon",
+    "counselor", "intercede", "martyrdom", "temptation", "perseverance", "unction", "illumination", "remission", "apostasy", "missionary",
+    "advocate", "beatific", "devotional", "exhortation", "thanksgiving", "edification", "shekinah", "adoption", "foreknowledge", "predestination",
+    "atoned", "hymnal", "benedictions", "covenantal", "immortality", "purification", "chastity", "ecclesiastical", "ecclesiology", "glorification",
+    "soul", "scepter", "newbirth", "deliverer", "confession", "fidelity", "intercessory", "pious", "ransom", "orthodox",
+    "lectionary", "regeneration", "tithe", "catechesis", "predestined", "mission", "monastery", "pastoral", "benedictions", "chrism",
+    "liturgy", "piety", "evangelist", "ascetic", "metanoia", "homiletics", "parousia", "reformation", "ecumenical", "proclamation",
+    "sanctum", "dispensation", "chrismation", "dogma", "contrition", "excommunication", "purgatory", "revelation", "seraphim", "archdiocese",
+    "chalice", "laity", "monastic", "pontiff", "preacher", "scriptural", "theology", "eschatology", "absolution", "beatific",
+    "beatitude", "confessional", "deification", "doxology", "eucharist", "exegesis", "hierarchy", "hypostasis", "lectionary", "metropolitan",
+    "mysticism", "novitiate", "numinous", "paternal", "patristics", "pericope", "soteriology", "synoptic", "theodicy", "transept",
+    "vestments", "abbot", "apostolate", "basilica", "catechumen", "cenobite", "chancel", "christology", "diocese", "ecclesia",
+    "exorcism", "fasting", "heresies", "heresy", "iconography", "indulgence", "judgment", "kenosis", "laudation", "litany",
+    "missiology", "oblation", "ordinance", "pallium", "pastorate", "patriarchate", "presbytery", "reverend", "sacrificial", "theologian",
+    "typology", "unction", "vespers", "xenophilia", "yoke", "zealous"
 }
+
+
 
 # Ensure df_words exists (df_words should be a Pandas DataFrame)
 if "df_words" in locals() or "df_words" in globals():  # Check if df_words exists
@@ -237,3 +261,6 @@ if "df_words" in locals() or "df_words" in globals():  # Check if df_words exist
 
 else:
     print("Error: df_words does not exist. Ensure df_words is loaded before running this analysis.")
+
+
+print(df_religious_analysis)
